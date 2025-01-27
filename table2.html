@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th{
+            border: 1px solid black;
+            border-collapse: collapse; 
+        }     
+        /* border-collapse is used to get a single line in the border/outline of the table */
+    </style>   <!--style tag is used to add the border/outline in the table-->
+</head>
+<body>
+    <table>
+        <caption>My first savings</caption>   <!--to add caption to a table-->
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+                <!-- th is used for the table heading insted of td to make the text bold of thead -->
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Mar</td>
+                <td>200</td>
+            </tr>
+        </tbody>
+       
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>600</td>
+            </tr>
+        </tfoot>
+        <!-- using thead, tbody and tfoot is a best practice though our code can also run without them -->
+    </table>
+</body>
+</html>
