@@ -1,0 +1,81 @@
+<!-- lec 2 html homework -->
+
+1.  Why h7, h8, h9....headings don't exist in html?
+
+    The absence of <h7>, <h8>, <h9>, and beyond in HTML is primarily a design choice grounded in practicality and readability. Here are the key reasons:
+
+    1. Hierarchical Simplicity
+    HTML headings <h1> to <h6> provide a clear, well-defined structure for organizing content hierarchically. Six levels are generally sufficient to represent most content structures, ranging from the main title to sub-subsections. Adding more levels would make the hierarchy unnecessarily complex and harder to maintain.
+    
+    2. Content Usability
+    Excessively deep hierarchies can overwhelm users and reduce readability. Six levels already allow for fine-grained content organization, and additional levels could lead to overly fragmented sections, making the document less user-friendly.
+    
+    3. Web Standards and Consistency
+    HTML is designed to be simple and universal. Introducing additional heading levels might complicate the standard and reduce consistency across documents and browsers. The six-level limit aligns with practical content needs observed over decades of web development.
+    
+    4. Accessibility and SEO
+    Search engines and assistive technologies like screen readers are optimized for the six-heading structure. Expanding the number of headings might disrupt these optimizations, reducing the usability and accessibility of web content.
+    
+    5. Customization via CSS
+    If more levels of visual distinction are needed, web developers can achieve this using CSS. For instance, <div> or <span> elements can be styled to look like additional headings, providing flexibility without modifying the core HTML structure.
+
+2.  How to make the color of horizontal rule in html as red?
+
+    You can change the color of a horizontal rule (<hr> tag) in HTML by using CSS. Here’s how you can do it:
+
+    Inline CSS
+    html
+    Copy code
+    <hr style="border: 1px solid red;">
+    Internal CSS
+    html
+    Copy code
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            hr {
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <hr>
+    </body>
+    </html>
+    Explanation:
+    The border property is used because the <hr> element doesn't directly support a color attribute in modern HTML.
+    border: 1px solid red; makes the line red and 1 pixel thick.
+    You can adjust the thickness and style (e.g., dotted, dashed, etc.) as needed.
+    Example with Custom Thickness:
+    html
+    Copy code
+    <hr style="border: 3px solid red;">
+    This approach ensures compatibility with all modern browsers.
+
+3.  How to end the background color till text only?
+
+    <p style="background-color: lightblue; display: inline;">This is the text with background color</p>
+    <!--here display attribute is used to make the background only till text instead of extending it full screen-->
+
+4.  Quotation and Citation tags red from mdn
+
+5.  How to add a favicon?
+
+    Done in project1.html file
+
+6.  Linus Torvalds project
+
+    Done in project1.html file
+
+7.  Read about rowpan, colspan, colgroup, rowgroup, caption 
+   
+    Done in next lecture of html
+
+8.  Read about padding and merging from mdn or w3schools
+
+9.  Make contact us form
+
+    Done in contactform.html in doubt class html folder
+
+
