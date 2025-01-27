@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      hr{
+        border: 1px solid red; 
+      }
+    </style> <!--used to change the color of the horizontal rule using internal css-->
+
+</head>
+<body>
+
+    <!-- Paragraph -->
+    <p>This is a paragraph</p>
+
+    <!-- heading h1 to h6 -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>Jiya is a good girl</p>
+    <br/>
+    <p>Good girl <br/> is Jiya</p>  <!--nested break is used in this line-->
+
+
+    <!-- link -->
+     <a href="https://www.facebook.com" target="_blank">Know more</a>
+     <!-- here target attribute is used to open the link in a new tab -->
+
+
+     <br/>
+     <!-- image -->
+     <img src="https://t3.ftcdn.net/jpg/07/27/22/18/360_F_727221858_QSPbFs9yQo4z2MX1XpYBhHjZCGh5zLTM.jpg" alt="Shahi Paneer image" width="50%" height="100%">
+     <!-- here the image is inserted by copying the image address directly from google -->
+
+     <img src="paneer.webp" alt="Paneer Khaalo Friends" width="300px" height="200px">
+     <!-- here image is inserted after downloading it  -->
+      <!-- height and width attributes are used to fix the size of image according to us -->
+    <!-- can use px also % also or nothing as well in the height and width attributes -->
+
+
+
+    <!--horizontal rule -->
+         <!--   <hr style="border: 1px solid red;">       -->
+     <!--used to generate a horizontal line on the screen-->
+     <!-- style is used to change the color of the horizontal line created using inline css -->
+    <hr>   <!--here color of horizontal rule is changed from internal css that is the style tag in the head section above-->
+
+
+     <!-- aa jao rap likhein -->
+      <p>yarr tera
+        superstar 
+        desi 
+        kalakaar
+      </p>
+      <!-- ye to sab same line me aa rha hai ab kya karu? -->
+
+     <p>
+        yarr tera<br>
+        superstar <br>
+        desi <br>
+        kalakaar
+     </p>
+
+     <!-- better way hai pre tag use karlo it is used to resolve "the poem problem" -->
+    <pre>
+        yarr tera
+        superstar 
+        desi 
+        kalakaar
+    </pre>
+    <!-- pre tag is used to display text as it is, as you are writing  -->
+    
+
+    <!-- inline css -->
+    <p style="color: brown;">Baby Baby <mark>Babyyy</mark> oooooooooo </p>  <!--used to change the text color-->
+    <p style="background-color: aqua;">Baby Baby Baby oooooooooo </p> <!--used to change the bg color-->
+    <p style="background-color: lightblue; display: inline;">This is the text with background color</p>
+    <!--here display attribute is used to make the background only till text instead of extending it full screen-->
+
+    <p style="font-size: large;">Baby Baby Baby oooooooooo </p> <!--used to change the font size-->
+    <p style="font-family: fantasy;">Baby Baby Baby oooooooooo </p> <!--used to change the font style-->
+    <p style="text-align: center;">Baby Baby Baby oooooooooo </p> <!--used to change the alignment of the text-->
+    
+    
+
+    <!--formatting- bold, italic, small, del mark, sup sub-->
+    <b>This is a bold tag used to bold the text</b>
+    <br>
+    <i>This is a italic tag used to make the text italic</i>
+    <br>
+    <small>This is a small tag used to reduce the font size of text</small>
+    <br>
+    <del>This is a <mark>del</mark>tag used to strike text</del>
+    <br>
+    <strike>This is also used to strike text</strike>
+    <!-- mark tag is used to mark the text separately highlighting it -->
+     <br>
+    <u>This is an underline tag used to underline the text</u>
+    <p>x <sup>2</sup>+ y <sup>2</sup>= z <sup>2</sup></p>
+    <p>x <sub>2</sub>+ y <sub>2</sub>= z <sub>2</sub></p>
+    
+
+    <!-- INLINE comment -->
+     <p>This is a <!--paragraph--> </p>
+
+
+
+     <!-- nested list -->
+      <ol>
+        <li>Shahi Paneer</li>   <!--li*3 is the shortcut that can be used to directly get 3 li tags all together--> 
+        <!-- this happened due to emmet (the shortcut thing
+         ) -->
+        <li>Kadai Paneer</li>
+        <li>Paneer do pyaja</li>
+        <ol>
+          <li>Chicken Paneer</li>
+          <li>Mutton Paneer</li>
+          <ul>
+            <li>matar paneer</li>
+          </ul>
+      </ol>
+      </ul>
+</body>
+</html>
